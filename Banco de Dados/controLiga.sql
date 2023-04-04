@@ -145,7 +145,7 @@ CREATE TABLE `pessoas` (
 
 LOCK TABLES `pessoas` WRITE;
 /*!40000 ALTER TABLE `pessoas` DISABLE KEYS */;
-INSERT INTO `pessoas` VALUES (1,'Higor Aguiar Peixoto','11917612664','Espera Feliz','Minas Gerais','(32)3746-1562'),(5,'Leonardo Alves de Souza','11526554680','Espera Feliz','Minas Gerais','(32)98442-8776'),(6,'Leozin Doido','12345678910','Espera Feliz','Minas Gerais','(32)984242421'),(7,'Leozin','11232564520','Espera Feliz','Minas Gerais','(32)8451515151'),(8,'leomel','11526554690','Espera Feliz','Minas Gerais','(32)984522100'),(9,'Leoshow','651515115111','Espera Feliz','Minas Gerais','(32)9842222152'),(10,'Nilton Cesar Martins','01234567890','Espera Feliz','Minas Gerais','(32)91234-6789'),(11,'Nova Pessoa','00254690782','Rio de Janeiro','Rio de Janeiro ','(28)9521-5246'),(13,'Olivier Jorge Braz','60442956649','Espera Feliz','Minas Gerais','(32)98405-6453'),(14,'Erick do Amaral e Souza','03391947667','Espera Feliz','Minas Gerais','(32)98412-7643');
+INSERT INTO `pessoas` VALUES (1,'Cliente Teste','99999999999','Espera Feliz','Minas Gerais','(32)3746-1562');
 /*!40000 ALTER TABLE `pessoas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
