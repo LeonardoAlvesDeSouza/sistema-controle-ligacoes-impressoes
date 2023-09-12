@@ -66,4 +66,4 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
     + PRIMARY KEY (`idLimites`)
 
 ### Importação do banco de dados
-É possível fazer a importação do banco de dados pelo arquivo: [controLiga.sql](../Banco de Dados/controLiga.sql)
+É possível fazer a importação do banco de dados pelo arquivo: [controLiga.sql](/Banco%20de%20Dados/controLiga.sql)
