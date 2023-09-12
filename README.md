@@ -17,7 +17,7 @@ https://www.java.com/pt-BR/download/manual.jsp
 ```
 https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 ```
-***Observação: Não é necessário a criação das tabelas nesse isntante.***
+***Observação: Não é necessário a criação das tabelas nesse instante.***
 
 ## Dados de conexão
 > DRIVER = "com.mysql.jdbc.Driver";
