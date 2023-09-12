@@ -13,3 +13,9 @@
 ```
 https://www.java.com/pt-BR/download/manual.jsp
 ```
+## Implementação do banco de dados MySQL
+```
+https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
+```
+### Configurando as tabelas
+Para a configuração das tabelas
