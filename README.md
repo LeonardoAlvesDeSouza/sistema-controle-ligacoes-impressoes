@@ -30,5 +30,5 @@ https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira
 
 ### Configurando as tabelas
 Para a inicialização correta do sistema é necessário a criação e inserção das seguintes base de dados e tabelas no banco de dados MySql:
-*Base de Dados: controliga;
-*Tabelas: +impressoes
+*Base de Dados: controliga
+*Tabelas: impressoes
