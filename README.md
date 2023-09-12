@@ -17,5 +17,15 @@ https://www.java.com/pt-BR/download/manual.jsp
 ```
 https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 ```
+***Observação: Não é necessário a criação das tabelas nesse isntante.***
+
+## Dados de conexão
+DRIVER = "com.mysql.jdbc.Driver";
+URL = "jdbc:mysql://localhost:3306/controliga";
+USER = "root";
+PASS = "cmef37463139";
+
 ### Configurando as tabelas
 Para a inicialização correta do sistema é necessário a criação e inserção das seguintes base de dados e tabelas no banco de dados MySql:
+*Base de Dados: controliga;
+*Tabelas: +impressoes
