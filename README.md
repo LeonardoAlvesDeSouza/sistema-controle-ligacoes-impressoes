@@ -21,8 +21,11 @@ https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira
 
 ## Dados de conexão
 > DRIVER = "com.mysql.jdbc.Driver";
+
 > URL = "jdbc:mysql://localhost:3306/controliga";
+
 > USER = "root";
+
 > PASS = "cmef37463139";
 
 ### Configurando as tabelas
