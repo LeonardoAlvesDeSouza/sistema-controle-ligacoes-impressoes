@@ -34,6 +34,8 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
   + User: root;
   + Password: cmef37463139;
 + Tabelas:
+  + login
+  + pessoas
   + impressoes
     + idImpre int(11) NOT NULL AUTO_INCREMENT,
     + qtdadeImpre int(11) NOT NULL,
@@ -42,3 +44,5 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
   + PRIMARY KEY (`idImpre`),
   KEY `fk_idPerfilImpre` (`idPerfil`),
   CONSTRAINT `fk_idPerfilImpre` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
+  + ligacoes
+  + limites
