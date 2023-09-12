@@ -1,4 +1,4 @@
-# sistema-controle-ligacoes-impressoes
+# Sistema de controle das ligações e impressões da Câmara Cidadã
 > Status do projeto: Finalizado
 <p>Esse sistema é utilizado na recepção da Câmara Municipal no projeto "Câmara Cidadã", que atende a demanda dos cidadãos do município de Espera Feliz - MG.</p>
 <p>A função do sistema é registrar os usuários que utilizam do serviço e controlar o volume de impressões e ligações que são realizadas no âmbito do legislativo, tendo como base os relatórios que podem ser gerados através do próprio sistema.</p>
