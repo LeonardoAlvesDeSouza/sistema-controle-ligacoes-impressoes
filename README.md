@@ -65,4 +65,5 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
     + 'qtdadeLimiteImpre' int(11) NOT NULL,
     + PRIMARY KEY (`idLimites`)
 
-<h4>É possível fazer a importação do banco de dados pelo arquivo: [controLiga.sql](../Banco de Dados/controLiga.sql)</h4>
+### Importação do banco de dados
+É possível fazer a importação do banco de dados pelo arquivo: [controLiga.sql](../Banco de Dados/controLiga.sql)
