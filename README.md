@@ -31,7 +31,14 @@ https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira
 ### Configurando as tabelas
 Para a inicialização correta do sistema é necessário a criação e inserção das seguintes base de dados e tabelas com seus respectivos nomes no banco de dados MySql:
 + Base de Dados: controliga
-  + User: root
-  + Password: cmef37463139
-+ Tabelas: impressoes
-  + idImpre
+  + User: root;
+  + Password: cmef37463139;
++ Tabelas:
+  + impressoes
+    + idImpre int(11) NOT NULL AUTO_INCREMENT,
+    + qtdadeImpre int(11) NOT NULL,
+    + dataImpre date DEFAULT NULL,
+    + idPerfil int(11) NOT NULL,
+  + PRIMARY KEY (`idImpre`),
+  KEY `fk_idPerfilImpre` (`idPerfil`),
+  CONSTRAINT `fk_idPerfilImpre` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
