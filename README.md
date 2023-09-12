@@ -41,8 +41,6 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
     + qtdadeImpre int(11) NOT NULL,
     + dataImpre date DEFAULT NULL,
     + idPerfil int(11) NOT NULL,
-  + PRIMARY KEY (`idImpre`),
-  KEY `fk_idPerfilImpre` (`idPerfil`),
-  CONSTRAINT `fk_idPerfilImpre` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
+    + PRIMARY KEY (`idImpre`), KEY `fk_idPerfilImpre` (`idPerfil`), CONSTRAINT `fk_idPerfilImpre` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
   + ligacoes
   + limites
