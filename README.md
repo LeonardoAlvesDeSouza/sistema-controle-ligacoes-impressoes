@@ -18,4 +18,4 @@ https://www.java.com/pt-BR/download/manual.jsp
 https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 ```
 ### Configurando as tabelas
-Para a inicialização correta do sistema é necessário a criação e inserção das seguintes tabelas:
+Para a inicialização correta do sistema é necessário a criação e inserção das seguintes tabelas no banco de dados MySql:
