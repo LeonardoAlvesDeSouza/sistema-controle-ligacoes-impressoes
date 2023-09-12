@@ -35,12 +35,34 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
   + Password: cmef37463139;
 + Tabelas:
   + login
+    + 'id' int(11) NOT NULL AUTO_INCREMENT,
+    + 'login' varchar(60) NOT NULL,
+    + 'senha' varchar(60) NOT NULL,
+    + PRIMARY KEY (`id`)
   + pessoas
+    + 'id' int(11) NOT NULL AUTO_INCREMENT,
+    + 'nomeCompleto' varchar(255) NOT NULL,
+    + 'cpf' varchar(30) DEFAULT NULL,
+    + 'cidade' varchar(80) NOT NULL,
+    + 'estado' varchar(80) NOT NULL,
+    + 'telefone' varchar(80) DEFAULT NULL,
+    + PRIMARY KEY (`id`)
   + impressoes
-    + idImpre int(11) NOT NULL AUTO_INCREMENT,
-    + qtdadeImpre int(11) NOT NULL,
-    + dataImpre date DEFAULT NULL,
-    + idPerfil int(11) NOT NULL,
+    + 'idImpre' int(11) NOT NULL AUTO_INCREMENT,
+    + 'qtdadeImpre' int(11) NOT NULL,
+    + 'dataImpre' date DEFAULT NULL,
+    + 'idPerfil' int(11) NOT NULL,
     + PRIMARY KEY (`idImpre`), KEY `fk_idPerfilImpre` (`idPerfil`), CONSTRAINT `fk_idPerfilImpre` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
   + ligacoes
+    + 'idLiga' int(11) NOT NULL AUTO_INCREMENT,
+    + 'dataLiga' date NOT NULL,
+    + 'idPerfil' int(11) NOT NULL,
+    + 'numeroLigado' varchar(60) NOT NULL,
+    + PRIMARY KEY (`idLiga`),  KEY `fk_idPerfilLiga` (`idPerfil`),  CONSTRAINT `fk_idPerfilLiga` FOREIGN KEY (`idPerfil`) REFERENCES `pessoas` (`id`)
   + limites
+    + 'idLimites' int(11) NOT NULL AUTO_INCREMENT,
+    + 'qtdadeLimiteLiga' int(11) NOT NULL,
+    + 'qtdadeLimiteImpre' int(11) NOT NULL,
+    + PRIMARY KEY (`idLimites`)
+
+<h4>É possível fazer a importação do banco de dados pelo arquivo: [controLiga.sql](Banco de Dados/controLiga.sql)</h4>
