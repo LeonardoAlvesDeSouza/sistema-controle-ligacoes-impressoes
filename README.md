@@ -10,5 +10,5 @@
 <p>O sistema fará o controle de todas as impressões e ligações realizadas, podendo gerar os relatórios respectivos de cada mês trabalhado.</p>
 # Instalação do ambiente JAVA
 ```
-<a href="https://www.java.com/pt-BR/download/manual.jsp">Manual de instalação</a>
+https://www.java.com/pt-BR/download/manual.jsp
 ```
