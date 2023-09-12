@@ -66,7 +66,9 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
     + PRIMARY KEY (`idLimites`)
 
 ### Importação do banco de dados
-É possível fazer a importação do banco de dados com todas as tabelas configuradas e já preenchidas de modo aleatório pelo arquivo: [controLiga.sql](/Banco%20de%20Dados/controLiga.sql)
+É possível fazer a importação do banco de dados com todas as tabelas configuradas e já preenchidas de modo aleatório pelo arquivo: 
+> [controLiga.sql](/Banco%20de%20Dados/controLiga.sql)
+
 #### Tutorial de como fazer a importação pelo Workbench:
 ```
 https://ajuda.hostnet.com.br/importacao-do-banco-via-mysql-workbench/
