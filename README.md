@@ -74,4 +74,4 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
 https://ajuda.hostnet.com.br/importacao-do-banco-via-mysql-workbench/
 ```
 ## Imagens e ícones
-Fica a critério de quem estiver implementando o sistema quais imagens e ícones usar, *Sabendo que é necessário manter os seus nomes para serem direcionados corretamente*.
+Fica a critério de quem estiver implementando o sistema quais imagens e ícones utilizar, *Sabendo que é necessário manter os seus nomes para serem direcionados corretamente*.
