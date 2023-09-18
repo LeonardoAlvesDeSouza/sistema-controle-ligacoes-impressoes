@@ -14,6 +14,7 @@
 https://www.java.com/pt-BR/download/manual.jsp
 ```
 ## Implementação do banco de dados MySQL
+*Exemplo:*
 ```
 https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 ```
@@ -70,6 +71,7 @@ Para a inicialização correta do sistema é necessário a criação e inserçã
 > [controLiga.sql](/Banco%20de%20Dados/controLiga.sql)
 
 #### Tutorial de como fazer a importação pelo Workbench:
+*Exemplo*
 ```
 https://ajuda.hostnet.com.br/importacao-do-banco-via-mysql-workbench/
 ```
