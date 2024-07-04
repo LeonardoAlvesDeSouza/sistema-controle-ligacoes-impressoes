@@ -1,5 +1,5 @@
 # Sistema de controle das ligações e impressões da Câmara Cidadã
-> Status do projeto: Finalizado
+> Status do projeto: Em execução
 
 > Versão: 1.0 (beta)
 
