@@ -29,6 +29,8 @@ https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira
 
 > PASS = "************";
 
+Obs: Para informações de senhas solicitar ao desenvolvedor responsável do projeto.
+
 ### Configurando as tabelas
 Para a inicialização correta do sistema é necessário a criação e inserção das seguintes base de dados e tabelas com seus respectivos nomes no banco de dados MySql:
 + Base de Dados: controliga
